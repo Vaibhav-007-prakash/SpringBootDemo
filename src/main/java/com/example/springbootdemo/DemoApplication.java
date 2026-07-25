@@ -2,13 +2,19 @@ package com.example.springbootdemo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
+
 @SpringBootApplication
-public class SpringBootDemoApplication {
+public class DemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootDemoApplication.class, args);
-        System.out.print("Hello ");
-        System.out.println("hiii");
+        SpringApplication.run(DemoApplication.class, args);
+
+
+//        Hellocontroler ob=new Hellocontroler();
+//        String s= ob.hello();
+//
+//        System.out.println(s);
     }
 
 }
